@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+</style>
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    height: 500px
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  background-image: url(images/socks.jpg);
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  color: #114e60;
+}
+h1,h2 {
+  font-family: font-family: 'Nunito', sans-serif;
+  color: #325288;
+}
+h1 {
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+h2 {
+  font-size: 24px;
+  /* font-weight: 900; */
+  line-height: 32px;
+  font-family: 'Nunito', sans-serif;
+}
+p {
+  font-size: 16px;
+}
+img {
+  border-radius: 50%;
+  height: 150px;
+}
+a {
+  text-decoration: none;
+  font-weight: semi-bold;
+  color: white;
+  background-color: #da790a;
+  padding: 16px 28px;
+  border-radius: 4px;
+  width: 200px;
+}
+a:hover {
+  color: #325288;
+  background-color: #f4eee8;
+  border-style: inset;
+}
+i {
+  font-size: 16px;
+    text-align: center;
+}
+ul {
+  padding: 24px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  padding: 32px;
+  margin: 24px auto;
+  border-radius: 4px;
+  width: 40%;
+}
+.card-white {
+  text-align: center;
+  background-color: white;
+  padding: 32px;
+  margin: 20px 0px auto;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  text-align: center;
+}
+#paragraph-withmargin {
+  margin: 16px;
+  padding-bottom: 16px;
+}
